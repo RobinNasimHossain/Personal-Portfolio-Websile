@@ -1,0 +1,121 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* bg / gray */
+  background: rgb(249, 250, 255);
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.header {
+  max-width: 1440px;
+  height: 650px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  margin-right: 48px;
+  margin-top: 14px;
+  list-style: none;
+}
+.nav li a {
+  text-decoration: none;
+  color: rgb(37, 40, 43);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+nav h3 {
+  color: rgb(37, 40, 43);
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 180%;
+  margin: 12px 120px;
+}
+/* end nav */
+
+/* start content */
+.header-contant-left {
+  width: 50%;
+  height: 630px;
+}
+.header-contant-left h5 {
+  color: rgb(253, 196, 53);
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-left: 120px;
+}
+.header-contant-left h2 {
+  color: rgb(51, 51, 51);
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-left: 120px;
+}
+.header-contant-left p {
+  color: rgb(130, 130, 130);
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-left: 120px;
+}
+.banner-btn1 {
+  color: rgb(37, 40, 43);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  /* brand / yellow */
+  background: rgb(253, 196, 53);
+  padding: 10px 20px;
+}
+.banner-btn2 {
+  box-sizing: border-box;
+  /* bg / line */
+
+  border-radius: 8px;
+  color: rgb(37, 40, 43);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 10px 20px;
+}
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-img-right {
+  width: 50%;
+  height: 630px;
+  background: url("../image/banner.png") center/cover no-repeat;
+  display: block;
+  margin-left: 50px;
+}
